@@ -1,0 +1,11 @@
+SELECT * FROM books;
+SELECT * FROM members;
+SELECT * FROM issue_records;
+
+INSERT INTO members VALUES (103, 'Avneet', 'avi@gmail.com');
+
+INSERT INTO issue_records VALUES (1003, 1, 101, '2026-01-06');
+
+DELETE FROM issue_records WHERE issue_id = 1002;
+
+DELETE FROM books WHERE book_id = 1;
