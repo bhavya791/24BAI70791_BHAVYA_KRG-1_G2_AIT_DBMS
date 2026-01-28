@@ -94,9 +94,9 @@ ORDER BY avg_salary DESC;
 ---
 
 ## Screenshot
-<img src="Experiment_2 screenshots/query1.png" width="700">
-<img src="Experiment_2 screenshots/query2.png" width="700">
-<img src="Experiment_2 screenshots/query3.png" width="700">
-<img src="Experiment_2 screenshots/query4.png" width="700">
-<img src="Experiment_2 screenshots/query5.png" width="700">
-<img src="Experiment_2 screenshots/query6.png" width="700">
+<img src="screenshots/query1.png" width="700">
+<img src="screenshots/query2.png" width="700">
+<img src="screenshots/query3.png" width="700">
+<img src="screenshots/query4.png" width="700">
+<img src="screenshots/query5.png" width="700">
+<img src="screenshots/query6.png" width="700">
