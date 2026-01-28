@@ -1,37 +1,35 @@
-# Experiment 2: SQL SELECT Queries with WHERE, GROUP BY, HAVING, and ORDER BY
+# Experiment 02 – SQL Filtering, Grouping and Sorting
 
-Student Name: Bhavya  
-UID: 24BAI70791  
-Branch: CSE(AI & ML)  
-Section/Group: 24AIT_KRG-1/G2  
-Semester: 4  
-Date of Performance: 13/01/2026  
-Subject Name: Database Management System  
-Subject Code: 24CSH-298  
+## Student Information
+- Name:Bhavya
+- UID: 24BAI70791
+- Branch: CSE(AIML)
+- Section: 24AIT-KRG-G2  
+- Semester: 4
+- Subject: Database Management System
+- Date of Performance: 16/01/2026  
 
 ---
 
-## Aim of the Session
-To understand and implement SQL SELECT queries using clauses such as WHERE, GROUP BY, HAVING, and ORDER BY for retrieving and analyzing employee data from a relational database table.
+## Aim
+To design and implement a sample database system using SQL commands to perform filtering, sorting, grouping, and aggregation operations and to understand the difference between row-level and group-level filtering.
 
 ---
 
 ## Software Requirements
-PostgreSQL Database (pgAdmin)  
-MS Word / PDF editor  
+- PostgreSQL  
+- pgAdmin  
 
 ---
 
 ## Objectives
-To practice writing SQL SELECT queries.  
-To apply filtering conditions using the WHERE clause.  
-To group records using the GROUP BY clause.  
-To filter grouped data using the HAVING clause.  
-To sort query results using the ORDER BY clause.  
-To use aggregate functions such as AVG() for data analysis.  
+- Retrieve specific data using filtering conditions  
+- Sort query results using single and multiple attributes  
+- Perform aggregation using grouping techniques  
+- Apply conditions on aggregated data  
+- Understand real-world analytical SQL queries  
 
 ---
-
 ## Procedure of the Experiment
 Start the system and log in to the database.  
 Create the EMPLOYEE table using SQL commands.  
@@ -39,6 +37,7 @@ Insert employee records into the table.
 Execute SELECT queries using GROUP BY, WHERE, HAVING, and ORDER BY clauses.  
 Verify the output after execution.  
 Save the work and take screenshots for record.  
+---
 
 ---
 
@@ -81,4 +80,23 @@ WHERE salary > 20000
 GROUP BY department
 HAVING AVG(salary) > 30000
 ORDER BY avg_salary DESC;
+```
 
+---
+
+## Learning Outcomes
+- Ability to create relational database tables
+- Understanding of row-level filtering using WHERE
+- Understanding of group-level filtering using HAVING
+- Application of aggregate functions
+- Clear understanding of SQL execution order
+
+---
+
+## Screenshot
+<img src="Experiment-2 screenshots/query1.png" width="700">
+<img src="Experiment-2 screenshots/query2.png" width="700">
+<img src="Experiment-2 screenshots/query3.png" width="700">
+<img src="Experiment-2 screenshots/query4.png" width="700">
+<img src="Experiment-2 screenshots/query5.png" width="700">
+<img src="Experiment-2 screenshots/query6.png" width="700">
