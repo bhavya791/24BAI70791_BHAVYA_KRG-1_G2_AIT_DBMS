@@ -1,41 +1,168 @@
-# Lab Experiment 2  
-SQL SELECT Queries using WHERE, GROUP BY, HAVING and ORDER BY
 
-## Experiment
-To retrieve and analyze employee data using SQL SELECT queries with WHERE, GROUP BY, HAVING and ORDER BY clauses.
+Student Name: Bhavya              			      UID: 24BAI70791
+Branch: CSE(AI & ML)	                     	      Section/Group: 24AIT_KRG-1/G2
+Semester: 4					                           Date of Performance: 13/01/2026
+Subject Name: Database Management System          Subject Code: 24CSH-298
 
-## Objective
-- To practice writing SQL SELECT queries.  
-- To filter records using the WHERE clause.  
-- To group records using the GROUP BY clause.  
-- To apply conditions on grouped data using the HAVING clause.  
-- To sort query results using the ORDER BY clause.  
-- To use aggregate functions such as AVG() for data analysis.
 
-## Procedure of the Experiment
-An EMPLOYEE table is created with fields emp_id, emp_name, department, salary and joining_date. Sample records are inserted into the table. SQL queries are executed using WHERE, GROUP BY, HAVING and ORDER BY clauses to display department-wise average salary based on given conditions.
 
-## Practical / Experiment Steps
-SQL commands are written to:
-- Create the EMPLOYEE table  
-- Insert employee records  
-- Retrieve department-wise average salary  
-- Filter records using WHERE clause  
-- Filter grouped data using HAVING clause  
-- Sort results using ORDER BY clause  
+Experiment 2
 
-## Input / Output Details and Screenshots
-**Input:**  
-Employee details such as emp_id, emp_name, department, salary and joining_date are provided as input.
+1. Aim of the Session
+To understand and implement SQL SELECT queries using clauses such as WHERE, GROUP BY, HAVING, and ORDER BY for retrieving and analyzing employee data from a relational database table.
 
-**Output:**  
-The output displays department-wise average salary for employees whose salary is greater than 20000 and whose department average salary is greater than 30000. The final result is arranged in descending order of average salary.
+2. Software Requirements
+PostgreSQL Database (pgAdmin)
 
-Screenshots of table creation, data insertion and query execution are included in the repository.
 
-## Learning Outcome
-- Understood the use of WHERE clause for filtering records.  
-- Learned grouping of records using GROUP BY clause.  
-- Learned to apply conditions on grouped data using HAVING clause.  
-- Learned sorting of results using ORDER BY clause.  
-- Gained practical knowledge of aggregate functions in SQL.
+MS Word / PDF editor
+
+
+
+3. Objectives
+To practice writing SQL SELECT queries.
+
+
+To apply filtering conditions using the WHERE clause.
+
+
+To group records using the GROUP BY clause.
+
+
+To filter grouped data using the HAVING clause.
+
+
+To sort query results using the ORDER BY clause.
+
+
+To use aggregate functions such as AVG() for data analysis.
+
+
+
+4. Procedure of the Experiment
+Start the system and log in to the database.
+
+
+Create the EMPLOYEE table using SQL commands.
+
+
+Insert employee records into the table.
+
+
+Execute SELECT queries using GROUP BY, WHERE, HAVING, and ORDER BY clauses.
+
+
+Verify the output after execution.
+
+
+Save the work and take screenshots for record.
+
+
+
+5. Practical / Experiment Steps
+(A) Table Creation
+
+CREATE TABLE EMPLOYEE (
+    emp_id NUMERIC PRIMARY KEY,
+    emp_name VARCHAR(50),
+    department VARCHAR(30),
+    salary NUMERIC,
+    joining_date DATE
+);
+
+
+(B) Insert Records
+INSERT INTO EMPLOYEE VALUES (1, 'Bhavya', 'IT', 48000, DATE '2022-02-10');
+INSERT INTO EMPLOYEE VALUES (2, 'Myra', 'IT', 42000, DATE '2021-07-15');
+INSERT INTO EMPLOYEE VALUES (3, 'Saksham', 'HR', 35000, DATE '2020-04-20');
+INSERT INTO EMPLOYEE VALUES (4, 'Anant', 'HR', 30000, DATE '2019-09-12');
+INSERT INTO EMPLOYEE VALUES (5, 'Srijan', 'Sales', 26000, DATE '2021-11-05');
+INSERT INTO EMPLOYEE VALUES (6, 'Yash', 'Sales', 38000, DATE '2020-03-18');
+
+
+(C) Queries Using GROUP BY, WHERE, HAVING and ORDER BY
+1. Display department-wise average salary
+SELECT department, AVG(salary) AS avg_salary
+FROM EMPLOYEE
+GROUP BY department;
+
+2. Display average salary considering only employees with salary > 20000
+SELECT department, AVG(salary) AS avg_salary
+FROM EMPLOYEE
+WHERE salary > 20000
+GROUP BY department;
+
+3. Display only departments with average salary > 30000
+SELECT department, AVG(salary) AS avg_salary
+FROM EMPLOYEE
+WHERE salary > 20000
+GROUP BY department
+HAVING AVG(salary) > 30000;
+
+4. Arrange result in descending order of average salary
+SELECT department, AVG(salary) AS avg_salary
+FROM EMPLOYEE
+WHERE salary > 20000
+GROUP BY department
+HAVING AVG(salary) > 30000
+ORDER BY avg_salary DESC;
+
+
+6. Input / Output Details and Screenshots
+Input:
+Employee ID
+
+
+Employee Name
+
+
+Department
+
+
+Salary
+
+
+Joining Date
+
+
+Output:
+Displays department-wise average salary
+
+
+Filters employees with salary greater than 20000
+
+
+Displays only those departments whose average salary is greater than 30000
+
+
+Output is sorted in descending order of average salary
+
+
+ Screenshots:
+
+
+
+
+
+
+
+
+
+
+
+7. Learning Outcome
+After completing this experiment, students will be able to:
+Filter records using the WHERE clause.
+
+
+Group records using the GROUP BY clause.
+
+
+Apply conditions on grouped data using the HAVING clause.
+
+
+Sort query results using the ORDER BY clause.
+
+
+Use aggregate functions like AVG() for data analysis.
+
