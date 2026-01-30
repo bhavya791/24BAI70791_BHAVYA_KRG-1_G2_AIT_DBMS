@@ -4,8 +4,7 @@
 **UID:** 24BAI70791  
 **Branch:** CSE(AI & ML)  
 **Section/Group:** 24AIT_KRG-1/G2  
-**Semester:** 4  
-**Date of Performance:** 13/01/2026  
+**Semester:** 4   
 **Subject Name:** Database Management System  
 **Subject Code:** 24CSH-298  
 
