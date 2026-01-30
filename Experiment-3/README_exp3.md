@@ -1,7 +1,11 @@
-Student Name: Bhavya              			      UID: 24BAI70791  
-Branch: CSE(AI & ML)	                     	      Section/Group: 24AIT_KRG-1/G2  
-Semester: 4					                           Date of Performance: 13/01/2026  
-Subject Name: Database Management System          Subject Code: 24CSH-298  
+## Student Information
+- Name:Bhavya
+- UID: 24BAI70791
+- Branch: CSE(AIML)
+- Section: 24AIT-KRG-G2  
+- Semester: 4
+- Subject: Database Management System
+- Date of Performance: 16/01/2026  
 
 ---
 
