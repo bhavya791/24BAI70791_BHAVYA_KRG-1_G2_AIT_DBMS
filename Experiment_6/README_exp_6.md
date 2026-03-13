@@ -56,18 +56,17 @@ Create PL/SQL programs to:
 
 ## 6. Input / Output Details and Screenshot
 
-Program (Input):
 <img src="screenshots/6.1.png" width="500">
 <img src="screenshots/6.2.png" width="500">
-Output:
+
 <img src="screenshots/6.3.png" width="500"> 
-Input:
+
 <img src="screenshots/6.4.png" width="500">
-Output:
+
 <img src="screenshots/6.5.png" width="500">
-Input:
+
 <img src="screenshots/6.6.png" width="500">
-Output:
+
 <img src="screenshots/6.7.png" width="500">
 
 ---
