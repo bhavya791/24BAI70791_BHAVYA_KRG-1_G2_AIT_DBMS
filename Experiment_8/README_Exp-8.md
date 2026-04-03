@@ -1,4 +1,4 @@
-# Experiment 7 — Stored Procedure with Gender-Based Employee Count (PL/SQL)
+# Experiment 8 — Stored Procedure with Gender-Based Employee Count (PL/SQL)
 
 | Field | Details |
 |---|---|
@@ -129,7 +129,7 @@ $$;
 
 | Screenshot |
 |:---:|
-| ![Table Creation](exp-8-screenshots/8.1.png) |
+| ![Table Creation](exp-8.screenshots/8.1.png) |
 
 ---
 
@@ -137,7 +137,7 @@ $$;
 
 | Screenshot |
 |:---:|
-| ![Data Insertion](exp-8-screenshots/8.2.png) |
+| ![Data Insertion](exp-8.screenshots/8.2.png) |
 
 ---
 
@@ -145,7 +145,7 @@ $$;
 
 | Screenshot |
 |:---:|
-| ![Stored Procedure](exp-8-screenshots/8.3.png) |
+| ![Stored Procedure](exp-8.screenshots/8.3.png) |
 
 ---
 
@@ -153,7 +153,7 @@ $$;
 
 | Screenshot |
 |:---:|
-| ![Procedure Output](exp-8-screenshots/8.4.png) |
+| ![Procedure Output](exp-8.screenshots/8.4.png) |
 
 ---
 
